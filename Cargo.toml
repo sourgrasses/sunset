@@ -1,0 +1,18 @@
+[package]
+name = "sunset"
+version = "0.1.0"
+authors = ["Jenn Wheeler <jwheeler@antiochcollege.edu>"]
+edition = "2018"
+
+[dependencies]
+bytes = "0.4.11"
+clap = "2.32.0"
+crossbeam-channel = "0.3.6"
+env_logger = "0.6.0"
+futures = "0.1.25"
+libc = "0.2.48"
+log = "0.4.0"
+memmap = "0.7.0"
+mio = "0.6.16"
+tokio = "0.1.14"
+zstd = { version = "^0.4", features = ["tokio"] }
